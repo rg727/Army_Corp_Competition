@@ -8,7 +8,7 @@ Hourly Predictions with Whole Dataset for Training
 1)	Jenny_Rahat_Data_Combine.R- combines the precipitation and temperature data from Rahat with Jenny’s HMS output runs and produces “Subbasin_X.csv” in Cut_Data/Precip_Temp folder
 2)	Aggregation.R-calculates the relevant interaction and aggregate variables and produces “Sub_X.csv” in Aggregated_Data/Hourly
 3) Then run the csv through the NN or relevant model
-4)	Prediction.R-Takes the predicted values and appends the correct date and actual value and creates a file “"SubX_Predictions_Final.csv"
+4)	Prediction.R-Takes the predicted values and appends the correct date and actual value and creates a file "SubX_Predictions_Final.csv"
 5)	Flow_Duration_Curve.R-Takes the final prediction csv and calculates metrics and corresponding visualizations 
 
 
